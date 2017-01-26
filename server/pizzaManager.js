@@ -159,7 +159,7 @@ var updatePizzasIfLower = function updatePizzasIfLower(price, increment)
 }
 
 /**
- * @brief This function update all pizzas if their price in >= than the param price, en increment 
+ * @brief This function update all pizzas if their price in > than the param price, en increment 
  * the price
  * @param price 
  * @param increment 
@@ -169,7 +169,7 @@ var updatePizzasIfNotLower = function updatePizzasIfNotLower(price, increment)
 {
     var ret = new Array();
     for(var i=0; i< menu.length;i++){
-        if(menu[i].price>=price){
+        if(menu[i].price>price){
             menu[i].price = menu[i].price+increment;
         }
         ret.push(menu[i]);
