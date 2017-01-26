@@ -1,0 +1,19 @@
+{
+  "name": "esame",
+  "version": "1.0.0",
+  "description": "esame 26-01-2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamianoBonani/SE2Lab_Exam_2017_01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamianoBonani/SE2Lab_Exam_2017_01/issues"
+  },
+  "homepage": "https://github.com/DamianoBonani/SE2Lab_Exam_2017_01#readme"
+}
